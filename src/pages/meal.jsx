@@ -41,7 +41,7 @@ const Meal = () => {
   return (
     <div className="container whitesmoke my-4 rounded">
       <div className="h-[100px]">
-        <h2 className="p-4">
+        <h2 className="p-4 text-3xl">
           Meal Details <div className="h-[4px] w-[100px] bg-red-400 mt-2"></div>
         </h2>
       </div>
@@ -60,7 +60,7 @@ const Meal = () => {
               />
             </div>
             <div className="w-1/2 mx-2">
-              <h2 className="pt-8">
+              <h2 className="pt-8 text-3xl">
                 {meals?.[0]?.strMeal}{" "}
                 <div className="h-[4px] w-cover bg-red-400 mt-2"></div>
               </h2>
