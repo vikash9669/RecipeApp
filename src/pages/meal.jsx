@@ -38,20 +38,6 @@ const Meal = () => {
     }
   }, [meals]);
 
-  //   const mealLoading = "";
-  //   const ingredients = [];
-  //   useEffect(()=>{
-  // if (storedMeal) {
-  //   for (let i = 1; i <= 20; i++) {
-  //     const ingredient = storedMeal[`strIngredient${i}`];
-  //     const measure = storedMeal[`strMeasure${i}`];
-  //     if (ingredient && ingredient.trim() !== "") {
-  //       ingredients.push({ ingredient, measure });
-  //     }
-  //   }
-  // }
-  // },[]);
-
   return (
     <div className="container whitesmoke my-4 rounded">
       <div className="h-[100px]">
@@ -78,7 +64,7 @@ const Meal = () => {
                 {meals?.[0]?.strMeal}{" "}
                 <div className="h-[4px] w-cover bg-red-400 mt-2"></div>
               </h2>
-              <h3 className="my-4 flex">
+              <h3 className="text-3xl my-4 flex">
                 Category:<p className="font-thin">{meals?.[0]?.strCategory}</p>{" "}
               </h3>
               <div className="flex flex-column bg-orange-500  h-auto w-full">

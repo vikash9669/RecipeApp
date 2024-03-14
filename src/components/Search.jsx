@@ -36,14 +36,14 @@ const Search = () => {
             </div>
           <div className="indicator  ">
             {/* <span className="indicator-item badge badge-secondary">new</span> */}
-            <button className="btn join-item text-white font-semibold bg-orange-600" type="submit">
+            <button className="btn join-item text-white font-semibold " type="submit">
               Search
             </button>
           </div>
         </form>
       </div>
       <div className="text-white my-4 text-center">
-            <h2>What Is Your Favorite Food?</h2>
+            <h2 className="text-3xl">What Is Your Favorite Food?</h2>
       </div>
     </div>
   );

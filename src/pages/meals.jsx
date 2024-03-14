@@ -42,7 +42,7 @@ const Meals = () => {
       </div>
       <div className="container bg-whitesmoke my-4 rounded">
         <div className="h-[100px]">
-          <h2 className="p-4">
+          <h2 className="text-3xl p-4">
             Meals <div className="h-[4px] w-[100px] bg-red-400 mt-2"></div>
           </h2>
         </div>
