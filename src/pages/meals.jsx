@@ -36,7 +36,7 @@ const Meals = () => {
     <>
       <div className="container h-auto my-4 rounded bg-whitesmoke border-4 border-orange-400">
         <div className="text-orange-400">
-          <h3>{storedCategory?.strCategory}</h3>
+          <h3 className="text-2xl">{storedCategory?.strCategory}</h3>
         </div>
         <p>{storedCategory?.strCategoryDescription}</p>
       </div>
