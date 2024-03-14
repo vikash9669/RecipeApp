@@ -34,7 +34,7 @@ const Category = () => {
               <Link
                 key={index}
                 to={`/meals/${category.strCategory}`}
-                className="h-[220px] w-[220px] mx-2 my-4 bg-zinc-100 rounded"
+                className="h-[220px] w-[220px] mx-2 my-4 bg-zinc-100 rounded hover:bg-gray-300 active:bg-gray-300 focus:outline-none focus:ring focus:bg-gray-300"
               >
                 <div className="pt-8">
                   <img

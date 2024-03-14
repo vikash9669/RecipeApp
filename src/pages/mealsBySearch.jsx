@@ -35,7 +35,7 @@ const MealsBySearch = () => {
                 <Link
                   key={index}
                   to={`/meals/meal/${meal?.strMeal}`}
-                  className="h-[300px] w-[240px] mx-2 my-4 bg-zinc-100 rounded flex flex-col justify-center"
+                  className="h-[300px] w-[240px] mx-2 my-4 bg-zinc-100 rounded flex flex-col justify-center hover:bg-gray-300 active:bg-gray-300 focus:outline-none focus:ring focus:bg-gray-300"
                 >
                   <div className="pt-4">
                     <img
