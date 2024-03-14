@@ -116,7 +116,7 @@ const Meal = () => {
             </div>
             {Instructions.length &&
               Instructions.map((item, index) => (
-                <div className="flex mx-4">
+                <div className="flex mx-4 my-2 ">
                   <div className="h-8 w-8 bg-green-950 text-white">
                     <p className="px-2">{index + 1}</p>
                   </div>
